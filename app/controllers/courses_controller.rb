@@ -4,7 +4,7 @@ class CoursesController < ApplicationController
   end
 
   def create
-     # erstellt ein Buch aber fügt es der Datenbank noch nicht hinzu
+     # erstellt ein Kurs aber fügt es der Datenbank noch nicht hinzu
      course = Course.new(course_params)
 
      if course.save
