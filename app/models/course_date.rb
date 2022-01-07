@@ -1,0 +1,2 @@
+class CourseDate < ApplicationRecord
+end

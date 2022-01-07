@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  firebase_id: MyString
+  first_name: MyString
+  last_name: MyString
+  birthdate: 2022-01-07 12:00:59
+
+two:
+  firebase_id: MyString
+  first_name: MyString
+  last_name: MyString
+  birthdate: 2022-01-07 12:00:59
