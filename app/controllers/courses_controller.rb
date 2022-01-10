@@ -19,7 +19,7 @@ class CoursesController < ApplicationController
 
   def update
   end
-
+ 
   private
 
   def course_params

@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+resources :books, only: [:index, :create, :destroy]
 
-Things you may want to cover:
+Neue Routes aktualisieren
+* bin/rails routes
 
-* Ruby version
+Create Controller: bin/rails g controller {name} {REST Types}
+ * bin/rails g controller CoursesController index create detroy update
 
-* System dependencies
+Create Model: 
+* rails g model Course name:string capacity:integer is_single:boolean
 
-* Configuration
+Datenbank migration
+* bin/rails db:migrate
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
