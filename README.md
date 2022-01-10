@@ -6,7 +6,7 @@ Neue Routes aktualisieren
 * bin/rails routes
 
 Create Controller: bin/rails g controller {name} {REST Types}
- * bin/rails g controller CoursesController index create detroy update
+ * bin/rails g controller CoursesController index create destroy update
 
 Create Model: 
 * rails g model Course name:string capacity:integer is_single:boolean
