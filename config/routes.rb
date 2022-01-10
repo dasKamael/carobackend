@@ -11,6 +11,10 @@ Rails.application.routes.draw do
 
   resources :courses, only: [:index, :create, :destroy, :update]
 
-  resources :users, only: [:index, :create, :destroy, :update]
+  resources :users, only: [:index, :create, :destroy, :update, :getUser]
+
+  resources :medals, only: [:index, :create, :update]
+
+  resources :roles, only: [:index, :create, :update]
 
 end
